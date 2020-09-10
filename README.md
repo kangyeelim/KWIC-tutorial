@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/kangyeelim/KWIC-tutorial.svg?branch=master)](https://travis-ci.org/kangyeelim/KWIC-tutorial)
+
 # KWIC Tutorial
 This is a [Maven](https://maven.apache.org/index.html) project. You need to install Maven first before coding.
 
