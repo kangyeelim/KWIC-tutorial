@@ -36,4 +36,19 @@ public class CircularShifterTest {
 		assertEquals("Tomorrow the Day after", afterShiftLineStorage.get(1).toString());
 	}
 
+	@Test
+	public void test1() {
+		inputLineStorage.addLine("A Happy Day Today");
+		assertEquals(4, afterShiftLineStorage.size());
+
+		assertEquals("A Happy Day Today", afterShiftLineStorage.get(0).toString());
+		assertEquals("Happy Day Today A", afterShiftLineStorage.get(1).toString());
+	}
+
+	@Test
+	public void test2() {
+		inputLineStorage.addLine("The After");
+		assertEquals(0, afterShiftLineStorage.size());
+	}
+
 }
